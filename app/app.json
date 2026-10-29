@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "꽁냥",
+    "slug": "kkongnyang",
+    "scheme": "kkongnyang",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kkongnyang.app"
+    },
+    "android": {
+      "package": "com.kkongnyang.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFAF7",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
